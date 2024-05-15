@@ -1,0 +1,64 @@
+.login{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/macarons-party_23-2148537090.jpg?t=st=1714535678~exp=1714539278~hmac=583f81ac0c4719bcf5aa642fe68a58569bd99339e6f39e11e63a6ae9189eeca6&w=900");
+  justify-content: center;
+  /* background: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.auth-form-container {
+    width: 400px;
+    background-color: rgb(248, 248, 247);
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow:1px 1px 1px 1px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  label{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .auth-form label {
+    margin-bottom: 10px;
+  }
+  
+  .auth-form input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 90%;
+  }
+  
+  .auth-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-form p {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  

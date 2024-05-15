@@ -1,0 +1,70 @@
+.historytable{
+   
+}
+.historycard{
+ 
+}
+.historytable {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin-left: 230px;
+    width: auto;
+    gap: 20px;
+  }
+  
+  .history{
+    width: 100%;
+  }
+  .historycard {
+    margin-top: 20px;
+    display: flex;
+/* flex-direction: column; */
+  height: 200px;
+    width: auto;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for leftSide and rightSide */
+ 
+  .rightSide {
+    
+    width: 100%;
+    height: 300px ;
+  }
+  
+  /* Styles for left side */
+  .leftSide {
+    flex: 1;
+    height: 400px;
+    background-color: #fff;
+  }
+  
+  /* Styles for right side */
+  .rightSide {
+    flex: 1;
+    background-color: #f0f0f0;
+    overflow: scroll;
+  }
+  
+  /* Styles for order summary */
+  .orderSummary {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .historycard {
+      flex-direction: column;
+    }
+  
+    .leftSide,
+    .rightSide {
+      padding: 10px;
+    }
+  }
+  

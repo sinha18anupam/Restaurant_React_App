@@ -1,0 +1,81 @@
+/* Notify.css */
+
+.main {
+    position: absolute;
+    left: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+  }
+  
+  .frist {
+    /* display: flex; */
+
+    /* flex-grow: 1; */
+    margin-bottom: 20px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    /* width: auto; */
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .items1 {
+    margin-top: 20px;
+  }
+  
+  .item-container2 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    /* width: calc(25% - 10px); */
+    margin-bottom: 10px;
+  }
+  
+  .items1 img {
+width: 100px;
+height: 100px;
+    /* height: auto; */
+    margin-bottom: 10px;
+  }
+  
+  .forpadding {
+    display: flex;
+    padding: 10px;
+  }
+   
+  

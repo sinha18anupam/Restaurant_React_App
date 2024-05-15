@@ -1,0 +1,60 @@
+.main-page{
+    /* margin-left: 230px; */
+}
+
+  .user-details-card {
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    
+  }
+  
+  .card {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-text {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Navbar Styles */
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .main-page {
+      padding: 20px;
+    }
+  
+    .user-details-card {
+      max-width: 100%;
+    }
+  
+    .card-title {
+      font-size: 16px;
+    }
+  
+    .card-text {
+      font-size: 14px;
+    }
+  }
+  
